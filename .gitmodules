@@ -1,3 +1,6 @@
 [submodule "nikeshopback"]
 	path = nikeshopback
 	url = https://github.com/JohanSP721/nikeshopback.git
+[submodule "nikeshopfront"]
+	path = nikeshopfront
+	url = https://github.com/JohanSP721/nikeshopfront.git
