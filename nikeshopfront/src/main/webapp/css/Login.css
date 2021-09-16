@@ -1,0 +1,56 @@
+body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	height: 100%;
+	background-image: linear-gradient(90deg, hsl(280, 100%, 20%), hsl(290, 100%, 40%));
+}
+
+.nike-banner {
+	width: 40rem;
+	height: 60rem;
+	border-radius: 1rem 0 0 1rem;
+	object-fit: fill;
+}
+
+.login-container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	width: 40rem;
+	height: 60rem;
+	padding: 2rem;
+	border-radius: 0 1rem 1rem 0;
+	background-color: white;
+}
+
+.login-form {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 100%;
+	margin-top: 5rem;
+}
+
+.login-input {
+	display: block;
+	width: 75%;
+	padding: .5rem;
+	margin: 1rem 0 3rem 0;
+}
+
+.login-error {
+	margin-bottom: 1rem;
+	font-size: 1.5rem;
+	font-weight: 700;
+}
+
+.login-button {
+	width: 75%;
+	padding: 1rem;
+	border-radius: 1rem;
+	color: white;
+	background-color: hsl(290, 65%, 60%);
+}
